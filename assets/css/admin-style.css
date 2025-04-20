@@ -1,0 +1,46 @@
+/* Admin styles for Roofer Directory plugin */
+
+#roofer-metabox p {
+    margin-bottom: 1em;
+}
+
+#roofer-metabox label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+#roofer-metabox input[type="text"],
+#roofer-metabox input[type="email"],
+#roofer-metabox input[type="number"],
+#roofer-metabox textarea,
+#roofer-metabox select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.wp-list-table th a {
+    text-decoration: none;
+}
+
+.wp-list-table th a:hover {
+    text-decoration: underline;
+}
+
+.tablenav .actions select {
+    min-width: 150px;
+    margin-right: 0.5em;
+}
+
+.tablenav .actions input.button {
+    margin-left: 0.5em;
+}
+
+.pagination-links .button {
+    margin-right: 0.3em;
+}
+
+.wp-list-table tbody tr td {
+    vertical-align: middle;
+}
